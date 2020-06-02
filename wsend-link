@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "<html><body><a href='$1'>$1</a></body></html>" > /tmp/link.html
+~/.wsend/wsend /tmp/link.html
+rm /tmp/link.html
+
